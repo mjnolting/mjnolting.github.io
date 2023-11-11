@@ -30,6 +30,7 @@ img
 {
     margin: auto;
     display: block;
+    width: 200px;
 }
 
 section :hover
