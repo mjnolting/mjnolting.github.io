@@ -1,45 +1,38 @@
 :root
 {
-    --uncblue: RGB(1,45,91);
-    --uncgold: RGB(254,189,54);
-    --uncgray: RGB(235,235,235);
-    color: var(--uncblue);
-    background-color:var(--uncgray)
+  --UNC-Blue: #013c65;
+  --UNC-Gold: #f6b000;
+  --UNC-Gray: #8a8a8d;
 }
-
-.title
+body
 {
-  color: var(--uncgold);
-  font-size: 48pt;
-  text-decoration: underline;
-  text-align: center;
+    background-color: var(--UNC-Gray);
 }
-
+*
+{
+    color: var(--UNC-Blue);
+    text-align: center;
+}
+h1
+{
+    font-size: calc(12pt + 4vw);
+}
+nav
+{
+    border: 7px var(--UNC-Gold) solid;
+}
+section
+{
+    border: 5px var(--UNC-Blue) solid;
+    margin: 5px;
+    margin-top: 50px;
+}
+.date
+{
+    color: var(--UNC-Gold);
+}
 ul
 {
-    text-align: center;
-}
-li
-{
-    display: inline;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-
-img
-{
-    margin: auto;
-    display: block;
-}
-
-section :hover
-{
-    background-color:var(--uncgold);
-}
-
-.footnote
-{
-    font-style: italic;
-    text-align: center;
-    margin-top: 100px;
+    list-style: none;
+    padding-left: 0px;
 }
